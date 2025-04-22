@@ -21,15 +21,15 @@ Install dependencies:
 3. Install the app into your workspace and authorize.
 4. Copy the **Bot User OAuth Token** (starts with `xoxb-…`).
 5. Invite the bot user to your target channel:
-   ```
-   /invite @YourBotName
-   ```
+```
+/invite @YourBotName
+```
 
 
 ## Configuration
 Set the following environment variables:
    ```bash
-   export SLACK_BOT_TOKEN="xoxb-..."   # Bot User OAuth Token
+   export SLACK_BOT_TOKEN="xoxb-..."             # Bot User OAuth Token
    export SLACK_CHANNEL="#your-channel-name"     # Channel name or ID (default: #general)
    ```
 
